@@ -14,6 +14,7 @@ body{
 .content-container{
     color: white;
     height: 100%;
+    width: 1300px;
     max-width: 1300px;
     flex-shrink: 0;
 }
@@ -87,8 +88,14 @@ button{
 button:hover{
     background-color: #285db3;
 }
+.broke-bg{
+    display: flex;
+    justify-content: center;
+}
 .broke-container{
     color: black;
     height: 650px;
-
+}
+.text{
+    margin: 0;
 }
