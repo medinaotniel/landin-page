@@ -5,11 +5,13 @@ body{
 .head-background{
     background-color: #1F2937;
     height: 650px;
+    display: flex;
+    justify-content: center;
 }
 .content-container{
     color: white;
-    margin: 0 220px;
     height: 100%;
+    max-width: 70vw;
 }
 .header{
     display: flex;
