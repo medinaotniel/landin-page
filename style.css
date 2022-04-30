@@ -5,3 +5,7 @@ body{
 .head-background{
     background-color: #1F2937;
 }
+.content-container{
+    color: white;
+    margin: 0 220px;
+}
