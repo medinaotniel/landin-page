@@ -96,6 +96,11 @@ button:hover{
     color: black;
     height: 650px;
 }
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+}
 .text{
     margin: 0;
 }
