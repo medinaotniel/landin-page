@@ -1,3 +1,6 @@
+.page-wrapper{
+    max-width: 100vw;
+}
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -32,7 +35,7 @@ nav {
     width: 300px;
     margin: 0;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 h1{
@@ -68,7 +71,7 @@ a {
     max-width: 600px;
 }
 .image {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -83,4 +86,9 @@ button{
 }
 button:hover{
     background-color: #285db3;
+}
+.broke-container{
+    color: black;
+    height: 650px;
+
 }
