@@ -223,3 +223,16 @@ footer{
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 1400px) {
+    .head-background{
+        flex-wrap: wrap;
+
+    }
+    .content-container{
+        flex-shrink: inherit;
+    }
+    .sign-up-container, .sign-flex{
+        flex-shrink: inherit;
+        width: auto;
+    }
+}
