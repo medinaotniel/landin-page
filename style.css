@@ -20,7 +20,6 @@ body{
     flex-shrink: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .header{
     display: flex;
@@ -162,9 +161,40 @@ h2 {
     width: 100%;
     text-align: end;
 }
-.bg, .bg.content-container{
+.bg .sign-up, .sign-up .content-container{
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    height: 450px;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-container{
+    width: 1300px;
+    height: 250px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-text{
+    width: 800px;
+}
+.heading-text{
+    font-size: 40px;
+    font-weight: 600;
+}
+.subtext{
+    font-size: 30px;
+}
+.sign-up button{
+    border: white 5px solid;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
 }
