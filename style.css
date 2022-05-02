@@ -300,6 +300,9 @@ footer{
             padding: 0 15px;
             height: auto;
         }
+        .quote-text{
+            margin-bottom: 25px;
+        }
     }
     footer {
         text-align: center;
@@ -310,5 +313,8 @@ footer{
     .button.first{
         display: block;
         margin: auto;
+    }
+    .heading-text, .subtext{
+        padding-bottom: 20px;
     }
 }
