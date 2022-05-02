@@ -254,6 +254,9 @@ footer{
     }
 }
 @media (max-width: 1000px){
+    footer, header, .bg{
+        padding: 10px 5px;
+    }
     .sign-up-container, .head-content{
         flex-direction: column;
     }
@@ -289,5 +292,12 @@ footer{
             flex-direction: column;
             align-items: center;
         }
+        .sign-up{
+            height: auto;
+            padding: 15px;
+        }
+    }
+    footer {
+        text-align: center;
     }
 }
