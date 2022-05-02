@@ -18,6 +18,9 @@ body{
     width: 1300px;
     max-width: 1300px;
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header{
     display: flex;
@@ -158,4 +161,10 @@ h2 {
     color: #1F2937;
     width: 100%;
     text-align: end;
+}
+.bg, .bg.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
