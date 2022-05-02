@@ -190,15 +190,17 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 1 0;
 }
 .sign-up-container{
-    width: 1300px;
+    /*width: 1300px;*/
     height: 250px;
     background-color: #3882F6;
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex: 1 1 0;
 }
 .left-text{
     width: 800px;
@@ -230,7 +232,10 @@ footer{
     .content-container{
         flex-shrink: inherit;
     }
-    @media (max-width: 1150px){
+    .bg{
+        padding: 0 25px;
+    }
+    @media (max-width: 1185px){
             .broke-bg{
             align-items: center;
             height: 950px;
@@ -243,10 +248,5 @@ footer{
         .broke-container{
             height: auto;
         }
-    }
-
-    .sign-up-container, .sign-flex{
-        flex-shrink: inherit;
-        width: auto;
     }
 }
