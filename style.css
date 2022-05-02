@@ -276,4 +276,11 @@ footer{
     .left-text{
         width: auto;
     }
+    .broke-bg{
+        height:auto;
+    }
+    .broke-content{
+        width: auto;
+        flex-wrap: wrap;
+    }
 }
