@@ -143,6 +143,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 450px;
 }
 .quote-text{
     font-size: 50px;
