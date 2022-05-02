@@ -224,13 +224,27 @@ footer{
     justify-content: center;
 }
 @media (max-width: 1400px) {
-    .head-background{
+    .head-background, .broke-content{
         flex-wrap: wrap;
-
     }
     .content-container{
         flex-shrink: inherit;
     }
+    @media (max-width: 1150px){
+            .broke-bg{
+            align-items: center;
+            height: 950px;
+        }
+        .broke-content{
+            width: 700px;
+            align-self: center;
+            justify-self: center;
+        }
+        .broke-container{
+            height: auto;
+        }
+    }
+
     .sign-up-container, .sign-flex{
         flex-shrink: inherit;
         width: auto;
