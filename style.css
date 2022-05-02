@@ -169,13 +169,15 @@ img {
     font-style: italic;
     color: #1f2937af;
     text-align: center;
+    padding: 0 30px;
 }
 .quote-author{
     font-size: 40px;
     font-weight: 600;
     color: #1F2937;
-    width: 100%;
     text-align: end;
+    padding: 0 30px;
+    align-self: flex-end;
 }
 .bg .sign-up, .sign-up .content-container{
     display: flex;
