@@ -261,7 +261,7 @@ footer{
         flex-direction: column;
     }
     .head-background{
-        height: 800px;
+        height: auto;
     }
     .head-container{
         width: 100%;
